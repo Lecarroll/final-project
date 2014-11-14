@@ -45,20 +45,68 @@ h4 {
     place your custom styles below here
 ========================================== */
 
+h1 {
+  text-align:center;
+  color:#99FFCC;
+  letter-spacing: 30px;
+  font-size:100px;
+  font-family:serif;
+}
+.name {
+  font-size:20px;
+  letter-spacing: 15px;
+  background-color:white;
+  font-family:sans-serif;
+}
+.heading {
+  border-style:double;
+  border-width:10px;
+  border-color:black;
+  margin:2%;
+  border-radius: 25px;
+  background-color:white;
+}
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+a {
+    float: left;
+    width: 10em;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:black;
+    background-color: white;
+    padding: 1em .8em;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin:5%;
+  }
+
+.container {
+  width:100%;
+  padding:1%;
+  background-color:#99FFCC;
+}
 
 
+.col-sm-10{
+  background-color:white;
+}
+  
 
 
-
-
-
-
-
-
-
-
-
-
+p {
+  margin:5%;
+  padding:5%;
+  text-align:center;
+  
+}
 
 
 
