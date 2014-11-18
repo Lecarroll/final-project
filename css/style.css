@@ -65,6 +65,7 @@ h1 {
   margin:2%;
   border-radius: 25px;
   background-color:white;
+
 }
 ul {
     float: left;
@@ -93,24 +94,42 @@ a {
   padding:1%;
   background-color:#99FFCC;
 }
-
+.containers {
+  background-color:white;
+}
 
 .col-sm-10{
   background-color:white;
 }
   
-
+.sidebarimage{
+  background-image:url('../img/solo.jpg');
+  height:600px;
+  background-size:cover;
+}
 
 p {
   margin:5%;
   padding:5%;
-  text-align:center;
   
+}
+.socialmedia{
+  color:black;
+  width:auto;
+  height:auto;
+  float:left;
+  background-color: #99FFCC;
 }
 
 
-
-
+h4{
+  color:black;
+  background-color:#99FFCC;
+  position:relative;
+  top:350px;
+  width:auto;
+  height:75px;
+}
 
 
 
