@@ -74,7 +74,7 @@ ul {
     margin: 0;
     list-style-type: none;
 }
-a {
+.headernav a {
     float: left;
     width: 10em;
     text-decoration: none;
@@ -88,6 +88,13 @@ a {
     border-bottom: 2px solid black;
     margin:5%;
   }
+.sidebardetails{
+ float:left;
+}
+
+.col-sm-10, p {
+  text-align:center;
+}
 
 .container {
   width:100%;
@@ -120,6 +127,9 @@ p {
   float:left;
   background-color: #99FFCC;
 }
+.socialmediafloat{
+  float:right;
+}
 
 
 h4{
@@ -129,8 +139,11 @@ h4{
   top:350px;
   width:auto;
   height:75px;
+  
 }
-
+ol {
+  text-align:center;
+}
 
 
 
