@@ -90,10 +90,14 @@ ul {
   }
 .sidebardetails{
  float:left;
+position:relative;
+  top:300px;
 }
+
 
 .col-sm-10, p {
   text-align:center;
+  border:2pxsolidblack;
 }
 
 .container {
@@ -114,6 +118,9 @@ ul {
   height:600px;
   background-size:cover;
 }
+.socialmediafloat{
+  float:left;
+}
 
 p {
   margin:5%;
@@ -122,23 +129,29 @@ p {
 }
 .socialmedia{
   color:black;
-  width:auto;
-  height:auto;
-  float:left;
-  background-color: #99FFCC;
-}
-.socialmediafloat{
+  width:170px;
+  height:30px;
   float:right;
-}
+  background-color: #99FFCC;
 
+}
+.socialmedia li{
+  display:inline-block;
+  padding:5px;
+  color:black;
+
+ 
+}
 
 h4{
   color:black;
   background-color:#99FFCC;
   position:relative;
-  top:350px;
-  width:auto;
-  height:75px;
+
+  width:170px;
+  height:50px;
+  text-align:center;
+  padding:10%;
   
 }
 ol {
