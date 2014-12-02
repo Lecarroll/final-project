@@ -156,10 +156,45 @@ h4{
 ol {
   text-align:center;
 }
+.beach {
+    width:50%;
+  height:50%;
+  padding:1%;
+}
+.aboutpage1{
+  width:50%;
+  height:50%;
+  padding:1%;
+  float:left;
+}
+.aboutpage2{
+   width:50%;
+  height:50%;
+  padding:1%;
+  float:right;
+}
+.food1 {
+  width:50%;
+  height:50%;
 
+}
+.food2 {
+  width:50%;
+  height:50%;
+
+}
+.people{
+  width:50%;
+  height:50%;
+
+}
+.people1{
+   width:50%;
+  height:50%;
+}
 .footer {
  background-color:#99FFCC;
-  text-align: center;
+text-align: center;
  
 }
 
