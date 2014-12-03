@@ -50,13 +50,15 @@ h1 {
   color:#99FFCC;
   letter-spacing: 30px;
   font-size:100px;
-  font-family:serif;
+  font-family: 'Nixie One', cursive;
+  font-weight:bold;
 }
 .name {
   font-size:20px;
-  letter-spacing: 15px;
+  letter-spacing: 18px;
   background-color:white;
-  font-family:sans-serif;
+  font-family: 'Nixie One', cursive;
+  
 }
 .heading {
   border-style:double;
@@ -74,11 +76,14 @@ ul {
     margin: 0;
     list-style-type: none;
 }
+
+
 .headernav a {
     float: left;
     width: 10em;
     text-decoration: none;
-    font-family: sans-serif;
+   font-family: 'Neucha', cursive;
+  font-weight:bold;
     color:black;
     background-color: white;
     padding: 1em .8em;
@@ -97,8 +102,10 @@ position:relative;
 
 .col-sm-10 {
   text-align:center;
-  border:2pxsolidblack;
+  border-style:solid;
+  border-width:auto;
   font-size:20px;
+  padding:5%;
 }
 
 .container {
@@ -125,7 +132,8 @@ position:relative;
 
 p {
   margin:5%;
-  padding:5%;
+padding:5%;
+font-family: 'Noticia Text', serif;
   
 }
 .socialmedia{
@@ -143,6 +151,7 @@ p {
 
 }
 
+
 h4{
   color:black;
   background-color:#99FFCC;
@@ -153,11 +162,22 @@ h4{
   padding:10%;
   
 }
+
+h2 {
+  font-family: 'Rock Salt', cursive;
+}
 ol {
   text-align:center;
 }
+
+h5 {
+  text-align:center;
+}
+.myphotography{
+    position: absolute;
+}
 .beach {
-    width:50%;
+  width:50%;
   height:50%;
   padding:1%;
 }
