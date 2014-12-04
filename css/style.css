@@ -45,21 +45,40 @@ h4 {
     place your custom styles below here
 ========================================== */
 
+.name {
+  font-size:20px;
+  letter-spacing: 18px;
+  background-color:white;
+  font-family: 'Nixie One', serif;
+}
 h1 {
   text-align:center;
   color:#99FFCC;
   letter-spacing: 30px;
   font-size:100px;
-  font-family: 'Nixie One', cursive;
+  font-family: 'Nixie One', serif;
   font-weight:bold;
 }
-.name {
-  font-size:20px;
-  letter-spacing: 18px;
-  background-color:white;
-  font-family: 'Nixie One', cursive;
-  
+
+h2 {
+  font-family: 'Rock Salt', serif;
 }
+
+h4{
+  color:black;
+  background-color:#99FFCC;
+  position:relative;
+  width:170px;
+  height:50px;
+  text-align:center;
+  padding:10%;
+}
+
+h5 {
+  text-align:center;
+}
+
+
 .heading {
   border-style:double;
   border-width:10px;
@@ -83,7 +102,7 @@ ul {
     width: 10em;
     text-decoration: none;
    font-family: 'Neucha', cursive;
-  font-weight:bold;
+    font-weight:bold;
     color:black;
     background-color: white;
     padding: 1em .8em;
@@ -93,12 +112,12 @@ ul {
     border-bottom: 2px solid black;
     margin:5%;
   }
+
 .sidebardetails{
- float:left;
-position:relative;
+  float:left;
+  position:relative;
   top:300px;
 }
-
 
 .col-sm-10 {
   text-align:center;
@@ -111,6 +130,7 @@ position:relative;
 .container {
   background-color:white;
 }
+
 .navigation {
   width:100%;
   padding:1%;
@@ -126,96 +146,92 @@ position:relative;
   height:600px;
   background-size:cover;
 }
+
 .socialmediafloat{
   float:left;
 }
 
 p {
   margin:5%;
-padding:5%;
-font-family: 'Noticia Text', serif;
-  
+  font-family: 'Noticia Text', serif;
 }
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
 .socialmedia{
   color:black;
   width:170px;
   height:30px;
   float:right;
   background-color: #99FFCC;
-
 }
+
 .socialmedia li{
   display:inline-block;
   padding:5px;
   color:black;
-
 }
 
-
-h4{
-  color:black;
-  background-color:#99FFCC;
-  position:relative;
-  width:170px;
-  height:50px;
-  text-align:center;
-  padding:10%;
-  
-}
-
-h2 {
-  font-family: 'Rock Salt', cursive;
-}
 ol {
   text-align:center;
 }
 
-h5 {
-  text-align:center;
-}
 .myphotography{
     position: absolute;
+  text-align:center;
 }
-.beach {
-  width:50%;
-  height:50%;
-  padding:1%;
-}
+
 .aboutpage1{
   width:50%;
   height:50%;
   padding:1%;
   float:left;
 }
+
 .aboutpage2{
    width:50%;
   height:50%;
   padding:1%;
   float:right;
 }
-.food1 {
-  width:50%;
-  height:50%;
 
+.about, facts{
+  font-size:12px;
 }
-.food2 {
-  width:50%;
-  height:50%;
 
+.col-md-3{
+  height:40%;
+  width:40%;
+  padding-bottom:5%;
+  padding-top: 5%;
 }
-.people{
-  width:50%;
-  height:50%;
 
+.col-md-2{
+  height:40%;
+  width:40%;
+  padding-bottom:5%;
+  padding-top: 5%;
 }
-.people1{
-   width:50%;
-  height:50%;
-}
+  
 .footer {
- background-color:#99FFCC;
+background-color:#99FFCC;
 text-align: center;
- 
+  padding:1%;
+  margin:1%;
 }
 
 /* =======================================
