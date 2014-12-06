@@ -50,6 +50,9 @@ h4 {
   letter-spacing: 18px;
   background-color:white;
   font-family: 'Nixie One', serif;
+    font-weight:bold;
+  text-align:center;
+  color:#99FFCC;
 }
 h1 {
   text-align:center;
