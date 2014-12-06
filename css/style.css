@@ -191,7 +191,6 @@ ol {
 }
 
 .myphotography{
-    position: absolute;
   text-align:center;
 }
 
@@ -203,30 +202,35 @@ ol {
 }
 
 .aboutpage2{
-   width:50%;
+  width:50%;
   height:50%;
   padding:1%;
   float:right;
+  padding-top: 10%;
+}
+
+.section1 {
+  height:50%;
+  width:50%;
+  float:left;
+  padding:10px;
+  
+}
+.section2 {
+  height:50%;
+  width:50%;
+  float:right;
+  padding:10px;
+}
+.img-responsive{
+  padding:10px;
 }
 
 .about, facts{
   font-size:12px;
 }
 
-.col-md-3{
-  height:40%;
-  width:40%;
-  padding-bottom:5%;
-  padding-top: 5%;
-}
 
-.col-md-2{
-  height:40%;
-  width:40%;
-  padding-bottom:5%;
-  padding-top: 5%;
-}
-  
 .footer {
 background-color:#99FFCC;
 text-align: center;
